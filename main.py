@@ -6,7 +6,7 @@ import backtrader as bt
 from backtrader.dataseries import TimeFrame
 class  PriceMACross(bt.Strategy):
     params = (
-        ('smaperiod', 15),
+        ('smaperiod', 155),
     )
     def log(self, txt, dDay=None, dTime=None):
         """Вывод строки с датой на консоль"""
